@@ -72,7 +72,7 @@ body {
   width: 100%;
 }
 
-#about-me {
+.about-me {
   flex: 2;
 }
 
@@ -89,7 +89,7 @@ body {
   font-display: swap;
 }
 
-#about-me p {
+.about-me p {
   width: 100%;
   font-size: 25px;
 }
@@ -282,8 +282,8 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h2,
-  #about-me p {
+  .about-me h2,
+  .about-me p {
     width: 100%;
   }
 }
@@ -378,9 +378,6 @@ input[type="submit"] {
   #contact {
     padding-inline: 2em;
     padding-block: 2em;
-  }
-  #about-me {
-	flex: unset;
   }
   form {
     width: 100%;

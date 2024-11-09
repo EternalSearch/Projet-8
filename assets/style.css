@@ -9,7 +9,7 @@ body {
 }
 
 .header_container {
-  background-color: white;
+  background-color:white;
   position: sticky;
   z-index: 1000;
   display: flex;
@@ -32,16 +32,15 @@ body {
   list-style-type: none;
   margin-bottom: 0;
 }
-
+.nav-link{
+  font-size:22px;
+  font-weight: 600;
+}
 .navbarcontainer a {
   text-decoration: none;
   font-size: 22px;
   color: #000;
 }
-
-/* .social-link img {
-	width: 20px;
-} */
 
 #about {
   display: flex;
